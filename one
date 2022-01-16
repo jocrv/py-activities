@@ -1,0 +1,31 @@
+What will be printed in the code below? tuple= (1, 2, 3, 4) tuple.append( (5, 6, 7) ) print(len(tuple))
+1
+Will throw an exception
+two
+7
+5
+
+Which of the languages ​​below is not interpreted?
+
+
+Ruby
+Ç
+Python
+Basic
+Moon
+
+
+Explanation:
+The answer is letter e, since all other languages ​​are interpreted, that is, they have an interpreter, and C is a ¿compiled¿ language, it has a ¿compiler¿ to generate the code.
+
+The use of comments is very important during program development. Check the alternative that presents the correct use of comments (inline) in Python.
+
+
+x = 25 /* x receives the value 25 /*
+x = 25 & x gets the value 25
+x = 25 # x gets the value 25
+x = 25 // x gets the value 25
+x = 25 @ x gets the value 25
+
+Explanation:
+For inline comments we use the #.
