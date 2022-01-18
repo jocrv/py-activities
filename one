@@ -29,3 +29,1536 @@ x = 25 @ x gets the value 25
 
 Explanation:
 For inline comments we use the #.
+
+tupla 
+
+Python is a multi-paradigm language. Identify, below, the paradigm that does not belong to the Python language:
+
+
+Structured
+
+
+Logical
+
+
+object oriented
+
+
+Polynomial
+
+
+aspect oriented
+
+
+
+
+Explanation:
+The answer is the letter e, because a, b, c and d are paradigms of the Python language.
+
+Polynomial is not a computing paradigm nor does it belong to the Python language.
+
+Python is a relatively new language, released in 1991. It is a general-purpose language designed specifically to make programs very readable. The language features:
+
+
+Non-Dynamic Typing, supports the functional programming paradigm, is a compiled language.
+
+
+Non-dynamic typing, supports the functional programming paradigm, is an interpreted language.
+
+
+Dynamic Typing, supports the logic programming paradigm, is a compiled language.
+
+
+Dynamic Typing, supports the functional programming paradigm, is a compiled language.
+
+Right
+Dynamic Typing, supports the functional programming paradigm, is an interpreted language.
+
+
+
+
+Explanation:
+The Python language is multiparadigm, that is, it works with more than one type of paradigm, such as object-oriented, functional, logic, among others.
+
+When in a language we don't need to declare variables to use them, we say that it is typically dynamic.
+
+Python is an interpreted language.
+
+What will be printed by the following code?
+
+print("ABC")#DEF
+
+#print("GHI")
+
+print("#JK")#LM
+
+print("NO#PQ")
+
+
+ABCNO
+ABCJKNOPQ
+ABCDEFGHIJKLMNOPQ
+TRUE 
+ABC#JKNO#PQ
+ABC#DEF#JK#LMNO#PQ
+Explanation:
+The only elements that constitute comments are: #DEF, #print("GHI"), #LM. All others will be printed in the order they occur in the code.
+
+With the Python language properly installed and configured on your operating system. What command is used to run the simulator.py source code (file)?
+
+
+simulator
+right  python simulator.py
+py.simulator
+simulator.py python
+simulator.py
+Explanation:
+To run a Python program, we use the following syntax:
+
+      python .py   
+
+Consider the following Python code:
+
+value1 = input("enter a number");
+
+value2 = input("enter another number");
+
+result = float((int(value1) + int(value2)))/2;
+
+print(result);
+
+ 
+
+Assuming that value variables are given the integers 4 and 6, what is the final result?
+10.0
+right 5.0
+ERROR
+10
+5
+Explanation:
+The result of the average of numbers 4 and 6 will be 5.0, the value will be of type float because the float() function converts the sum of the two integers to float.
+
+Which of the statements below characterizes the concept of ¿dynamic typing¿?
+String a = 3
+right  i = 2
+String x = ¿test¿
+int i = 5
+2+3 = 5
+Explanation:
+The correct answer is letter a, given that dynamic typing is a feature of the language, where the interpreter itself infers what the type of the language is, in which case it will infer that i is a variable of type integer.
+
+The letters b and c characterize static typing, d is an instruction to add two numbers and the letter e, is an instruction where the quotation marks are missing for the static type String
+Consider the following command line:
+
+print(float(3) + 3);
+
+What is the result of this expression?
+
+3.0+3
+6
+ERROR
+0
+Right
+6.0
+Explanation:
+The expression float(3) will be converted to 3.0 and when added to 3 Python will result in 6.0 because the float type encompasses the integer type.
+
+Consider the following Python code:
+
+a = 1
+
+b = 2
+
+c = a+b
+
+print("the result",c);
+
+Suppose this code is in the file teste.py, what would be the correct call through the operating system prompt?
+
+
+p test.py
+p test
+py test.py
+python test
+right python test.py
+
+Explanation:
+The answer is the letter d, as a python program is called using the python command and the filename ending in .py.
+
+The other calls are not functional.
+
+What is the result of the following line in Python:
+
+ print(int(¿1000¿) + 1000);
+
+
+ERROR
+
+right
+2000
+
+1000
+
+0
+
+
+10000
+
+Explanation:
+The answer is 2000 because the string ¿1000¿ will be converted to an integer that can be added to 1000 and result in 2000.
+
+Let the string in Python:
+
+str = 'Python';
+
+What is the result of the expression:
+
+print(str[0]);
+
+Right
+P
+
+
+H
+
+t
+and
+
+The
+
+
+Explanation:
+The answer is P, as in python strings start with the first element 0 (zero).
+
+Which of the types below does not belong to the Python language?
+
+
+lists
+
+
+integers
+
+
+tuples
+
+Right
+ropes
+
+
+dictionaries
+
+
+
+
+Explanation:
+Strings are not a computational type and are not part of Python types.
+
+Consider the following code:
+
+x = 10
+
+sum = 0
+
+while (x > 0):
+
+               x = x - 2
+
+               sum = sum + x
+
+print(sum)
+
+After its execution, the result will be:
+
+
+18
+
+Right
+20
+55
+45
+30
+
+Explanation:
+table test
+
+The repetition structure will occur as long as x is greater than 0. Therefore, the following values ​​for x will be executed.
+
+x: 8 sum: 8
+
+x: 6 sum: 14
+
+x: 4 sum: 18
+
+x: 2 sum: 20
+
+x: 0 sum: 20
+
+Consider the following Python code:
+
+value = 7
+
+while (value>3):
+
+  print(value)
+
+  value -= 1
+
+else:
+
+  last_value = value
+
+  print(last_value)
+
+What is the result of the variable ¿last_value¿, when the code is finished?
+
+
+5
+
+4
+
+right
+3
+6
+
+7
+
+Explanation:
+The condition is to print while the value is greater than 3. When it reaches the value 3, the code will execute the else statement, and it will have a value of 3.
+
+The correct answer is letter e.
+
+Review the information below:
+
+Python is interpreted
+Python is object oriented
+Python is interactive
+The statements are correct:
+
+only I
+Only I and II
+Only I and III
+ I, II and III   right
+Only II and III
+
+A company wants to know what the total payroll value of its employees will be in the next month.
+
+Review the program below (in Python).
+
+i = 1
+
+sum = 0
+
+while __________________ # sentence 1
+
+salt = float( input('Salary..: ') )
+
+               sum = sum + salt
+
+               i = i + 1
+
+print("Total Payroll..: R$ ", sum)
+
+ 
+
+It is known that the company has 45 employees. Complete sentence 1 so that the program at the end shows the Total Value of the company's Payroll.
+
+(i > 45):
+
+(i = 45):
+
+(i < 45):
+
+(i >= 45):
+
+right
+(i <= 45):
+
+Explanation:
+As long as the condition is true, the loop is executed. Therefore, as the company has 45 employees and i starts with 1, the condition is i<=45.
+
+Explanation: All statements are correct
+
+A retail store wants to classify its products into Promo10, Promo20 and Promo30, according to the table below.
+
+          Product Price (price)
+
+     Classification
+
+<= BRL 10.00
+
+promo10
+
+Between BRL 10.00 and BRL 50.00
+
+promo20
+
+>= BRL 50.00
+
+promo30
+
+Check the program snippet that correctly implements the conditional structure.
+
+
+if price <= 10.00:
+
+                print("Promo 10")
+
+elseif price < 50.00 :
+
+               print("Promo 20")
+
+else:
+
+              print("Promo 30")
+
+
+
+if price <= 10.00:
+
+                print("Promo 10")
+
+elif price >10.00 or price < 50.00 :
+
+               print("Promo 20")
+
+else:
+
+              print("Promo 30")
+
+Right
+if price <= 10.00:
+
+                print("Promo 10")
+
+elif price < 50.00 :
+
+               print("Promo 20")
+
+else:
+
+              print("Promo 30")
+
+
+
+
+
+if price <= 10.00:
+
+                print("Promo 10")
+
+elif price > 50.00 :
+
+               print("Promo 20")
+
+else:
+
+              print("Promo 30")
+
+
+if price <= 10.00:
+
+               print("Promo 10")
+
+                elif price < 50.00 :
+
+                               print("Promo 20")
+
+else:
+
+                                              print("Promo 30")
+
+
+
+
+Explanation:
+The decision structures in Python are:
+
+Type Description
+if Used to perform an action if a condition is true.
+Else Used when the condition is not satisfied.
+Elif Used if more than one alternate condition.
+ 
+
+In Python, the if statement has the following syntax:
+
+
+if expression:
+       command(s)
+else:
+       command(s)
+
+ 
+
+Indentation is required to create the command block.
+
+A company wants to grant a 15% discount for sales over R$ 120.00. Check the program snippet that correctly implements the conditional structure, where the price variable will contain the amount to be paid, including the discount.
+
+right
+if price > 120:
+
+               price = price * 0.85
+
+
+if price >= 120:
+
+               price = price * 0.15
+
+
+if price >= 120:
+
+               price = price * 1.15
+
+
+if price > 120:
+
+               price = price * 0.15
+
+
+if price > 120:
+
+               price = price * 1.15
+
+
+
+
+Explanation:
+To calculate the discount, we use the following formula:
+
+Discount amount: price * Discount percentage / 100
+
+Discounted value: price - price * Discount percentage / 100 or price *0.85
+
+The question asks for the discounted price.
+
+What is the function of the relational operator ¿==¿ in Python?
+
+
+assignment
+
+right
+equal
+
+
+or logical
+
+
+different
+
+
+it is logical
+
+
+
+
+Explanation:
+== means the logical equality operator in Python, in this case the answer is the letter a.
+
+During the development of a program in Python, the registration function was created, which receives as parameters the name and age of a person, respectively.
+
+Check the alternative that performs the function correctly.
+
+
+def register(20, "Paul")
+
+
+register()
+
+
+def register ("Paul", 20)
+
+
+register (20, "Paul")
+
+right
+register("Paul", 20)
+
+
+
+
+Explanation:
+To call a function we must use the following syntax:
+
+                         Function name (input parameters)
+
+
+
+Check the alternative that implements the IMC function. This function receives as input parameter the weight and height of a person and returns the BMI value.
+
+
+def BMI(weight, height):
+
+                calculation = float(weight) / float(height) * float(height))
+
+               print(calculation)
+
+
+BMI(weight, height):
+
+                calculation = float(weight) / float(height) * float(height))
+
+               return calculate
+
+
+BMI():
+
+                calculation = float(weight) / float(height) * float(height))
+
+               return calculation
+
+
+BMI(weight, height):
+
+                calculation = float(weight) / float(height) * float(height))
+
+               print(calculation)
+
+Right
+def BMI(weight, height):
+
+                calculation = float(weight) / float(height) * float(height))
+
+               return calculate
+
+
+
+
+Explanation:
+Structure of a function in Python:
+
+Every Python function starts with the def command.
+After the def, there is the function name.
+Then the list of parameters appears, which can be empty, but the parentheses are mandatory.
+After this list are the colons (¿:¿).
+All code that is indented will be part of the function body. Indentation is very important in defining functions.
+Every function ends with the return statement, which may or may not be followed by a return variable.
+
+
+When defining a Car class in Python, what would be a possible method for it?
+
+
+define plant(place):
+
+
+set light(value):
+
+
+define close():
+
+
+def add(a,b):
+
+right
+def accelerate(vel):
+
+
+
+
+Explanation:
+The answer is the letter b, because a method is an action to be performed by the object, in this case, a car has acceleration as a possible action, the letters c, dee are with a keyword define that is not from python, and the letter a, adding two parameters does not fit in the car object.
+
+
+During the development of the project, it was necessary to create a constructor method for the Employee class. Check the option that presents the creation of the constructor method.
+
+
+_init_(self, enrollment, title):
+
+
+def _constructor_(self, registration, name, title):
+
+
+_employee_(self, enrollment, position):
+
+Right
+def _init_(self, registration, name, title):
+
+
+def _employee_(self, registration, name, title):
+
+
+
+
+Explanation:
+ The constructor method is created using the syntax:
+
+               def _init_():
+
+To access the attribute of a Python object, the following function can be used, alternatively to direct access:
+
+
+setattr
+
+
+delattr
+
+
+hasattr
+
+
+expattr
+
+right
+getattr
+
+
+
+
+Explanation:
+Functions: getattr - returns the attribute value, hasattr - tests if the attribute exists, setattr - sets the attribute value, delattr - removes the attribute, expattr - does not exist.                   
+
+Every object-oriented language allows the specification of constructor methods in the class, which are responsible for initializing the newly allocated object in memory. In Python language, this method is named as follows:
+
+
+constructor
+
+right
+__init__
+
+
+this
+
+
+self
+
+
+def
+
+
+
+
+Explanation:
+The constructor method is called __init__, being defined, like the other methods, through def __init__(self, parameters...). For the rest, def is for creating a function or method and self is Python's implicit self-referencing pointer. The this and the constructor do not belong in Python syntax.
+
+In object-oriented, the characteristic that determines whether a descendant can change the functionality of an inherited method is called:
+encapsulation
+
+right
+polymorphism
+composition
+abstraction
+heritage
+Explanation:
+Through inheritance it is possible to create a new class from an existing one, taking advantage of its characteristics, but some functionalities may not be adequate, and may be modified by overriding these methods, according to a process called polymorphism.
+
+The Python function below illustrates a very important concept in the functional paradigm.
+
+def factorial(value):
+
+    if value == 0:
+
+        return 1
+
+    else:
+
+        return value * factorial(value-1)
+
+What is this concept?
+
+Object orientation
+scripting languages
+
+right
+recursion
+dynamic typing
+multiparadigms
+Explanation:
+The answer is letter c. The function implements the factorial function that calls itself in the else statement. This concept of a function calling itself is defined by recursion.
+
+What is the output of the command below: >>> a='10' >>> print(a*2)
+`20'
+100
+20
+right 1010
+Mistake!
+
+
+
+Explanation: The variable a contains a string. Using the "*" operator will repeat it
+
+What is the purpose of the super() command in the statement below?
+
+class Car(Vehicle):
+
+  def __init__(self,vel,mark):
+
+    super().__init__(vel)
+
+    self.brand = brand
+
+
+Use of polymorphism in Python.
+
+
+Initializes the variable vel.
+
+
+None of the previous answers are correct.
+
+
+Just the normal syntax for defining a simple class in Python.
+
+Right
+Allows the class to inherit the superclass's method.
+
+
+
+
+Explanation:
+The answer is letter a. This is how Python's method overloading is implemented, making it possible to extend the functionality of the superclass to the child classes.
+
+Let the class be defined as GeometricShape in Python, which of the options below could be a class that inherits from this class?
+
+
+class Person(GeometricShape)
+
+
+class Animal(GeometricShape)
+
+
+None of the options are correct.
+
+
+class Car(GeometricShape)
+
+Right
+class Square(GeometricShape)
+
+
+
+
+Explanation:
+The answer is class Square(GeometricShape), class Square, because a subclass inherits the properties of the superclass, and as there is only one geometric shape among the options it is the correct answer.
+
+What does the code below print?
+class Sales:
+    def __init__(self, id):
+        self.id = id
+        id = 100
+
+val = Sales(123)
+print(val.id)
+
+Nothing. will give up
+None of the previous
+ID
+100
+right 123
+
+
+
+Explanation: The constructor will do the assignment to the id variable of the val object
+
+Which of the options below contains concepts from the object-oriented paradigm only?
+
+Right
+method, class, inheritance
+
+
+class, repeat structure
+
+
+variable, conditional structure
+
+
+ function, variable
+
+
+attribution, algorithm
+
+
+
+
+Explanation:
+The answer is letter a, which has three concepts that apply to object orientation.
+
+Which of the commands below defines an inheritance relationship in Python?
+
+right
+class Car(Vehicle) :
+
+
+class Car inherits Vehicle
+
+
+class Car extends Vehicle
+
+
+car is vehicle
+
+
+class Car is Vehicle
+
+
+
+
+Explanation:
+The answer is the letter a, which has the correct syntax to define, in Python, that the Car class is an extension of the Vehicle class.
+
+
+Consider the following definition of the fraction class:
+
+class Fraction:
+
+    def __init__(self,num,den):
+
+        self.num = num
+
+        self.den = den
+
+What would be a possible header for a method of multiplying two fractions?
+
+
+fraction.multiply(f1)
+
+
+def mul(fraction1,fraction2)
+
+
+f.multiply(f)
+
+
+None of the above is correct.
+
+right
+def __mul__(self,fraction):
+
+
+
+
+Explanation:
+The answer is:
+
+def __mul__(self,fraction):
+
+where an object of the Fracao class is passed as a parameter from which the numerator and denominator will be taken.
+
+Below is the code for this method:
+
+def mul(self,fraction):
+
+        return Fraction(self.num*fraction.num,
+
+                       self.den*fracao.den)
+
+The stack is a data structure that allows the insertion/removal of items dynamically following a last-in, first-out rule. Suppose that for a data structure, type stack, the commands insert (inserts an element from the stack) and pop (removes an element from the stack) are defined.
+
+Assume that, in an initially empty "stack" type data structure, the following commands are executed:
+
+ 
+
+stack = []
+
+stack.insert(0,10)
+
+stack.insert(0,5)
+
+stack.insert(0,3)
+
+stack.insert(0.40)
+
+stack.pop(0)
+
+stack.insert(0,11)
+
+stack.insert(0,4)
+
+stack.insert(0,7)
+
+stack.pop(0)
+
+stack.pop(0)
+
+print("Stack.: ", stack)
+
+ 
+
+After executing the commands, the element on top of the stack and the sum of the elements stored on the stack are, respectively,
+
+right
+11 and 29
+
+4 and 80
+11 and 80
+7 and 40
+7 and 29
+
+Explanation:
+Stack Concept - Last in, first out.
+
+Final Pile Result.: [11, 3, 5, 10]
+
+Element at the top of the stack is 11.
+
+Sum of stack elements: 11+3+5+10 =29
+
+When we run the following commands in Python, what result will we get?
+
+list = [4,2,1,5,0]
+
+list.sort()
+
+print(list)
+
+Right
+[0,1,2,4,5]
+
+[1,2,3,4,5]
+
+[5,4,2,1,0]
+
+[5,4,3,2,1]
+
+[5,3,4,2,1]
+
+Explanation:
+the answer is [0,1,2,4,5] as the sort() function sorts the list from smallest to largest.
+
+Data structures are ways of building and storing information for later retrieval. Among the structures we can work with the Queue.
+
+Analyzing the code below, check the alternative that is equivalent to the command print("Queue: ", queue) at the end of the code execution. It is known that the append function allows inserting an element into the queue and the pop function allows removing the element from the queue.
+
+queue = []
+
+queue.append(10)
+
+queue.append(3)
+
+queue.append(5)
+
+queue.append(8)
+
+queue.pop(0)
+
+queue.pop(0)
+
+queue.append(20)
+
+print("Queue: ", queue)
+
+
+Queue: [10, 3, 5, 8]
+
+
+Queue: [20, 8, 5]
+
+Right
+Queue: [ 5, 8, 20]
+
+
+Queue: [5, 8]
+
+
+Queue: [10, 3, 5, 8, 20]
+
+
+
+
+Explanation:
+Queuing Concept - First in, first out.
+
+Code execution step by step
+
+Row: [] Row: [10] Row: [10, 3] Row: [10, 3, 5] Row: [10, 3, 5, 8] Row: [3, 5, 8] Row: [5, 8] Row: [5, 8, 20]
+
+Data structures are ways of building and storing information for later retrieval. Among the structures we can work with the Stack.
+
+Analyzing the code below, check the alternative that is equivalent to the command print("Stack: ", stack) at the end of the code execution. It is known that the insert function allows you to insert an element into the stack and the pop function allows you to remove the element from the stack.
+
+stack = []
+
+stack.insert(0,10)
+
+stack.insert(0.50)
+
+stack.insert(0.40)
+
+stack.insert(0.120)
+
+stack.pop(0)
+
+stack.insert(0,15)
+
+stack.pop(0)
+
+stack.pop(0)
+
+print("Stack: ", stack)
+
+
+Stack: [15, 120, 40, 50, 10]
+
+Stack: [120, 15]
+
+Right
+Stack: [ 50, 10]
+
+Stack: [10, 50, 40, 120, 15]
+
+Stack: [40, 50]
+
+Explanation:
+Stack Concept - Last in, first out.
+
+Code execution step by step
+
+Stack.: [] Stack.: [10] Stack.: [50, 10] Stack.: [40, 50, 10] Stack.: [120, 40, 50, 10] Stack.: [40, 50, 10 ] Stack.: [15, 40, 50, 10] Stack.: [40, 50, 10] Stack.: [50, 10]
+
+
+There are several queuing policies for the abstract data type "Queue". Of these, what is the acronym that defines a queue where the first in is the first out of the queue?
+
+
+queued stack
+
+linked queue
+
+Right
+FIFO
+
+queue by priority
+
+queued queue
+
+
+Explanation:
+The term FIFO stands for ¿First in, First out¿ which means first in is first out, so the correct answer is FIFO.
+
+What is the result of the following Python commands?
+
+list1 = [1,2,3]
+
+list2 = [4,5,6]
+
+print(list1 + list2)
+
+
+[1,2,3]
+
+
+[2,4,5,6]
+
+Right
+[1,2,3,4,5,6]
+
+[6,5,4,3,2,1]
+
+[4,5,6]
+
+Explanation:
+Comment: The answer is [1,2,3,4,5,6]. The + operator joins the elements of two lists.
+
+Lists are one of the main data types in Python. Analyze the following statements.
+
+In Python, lists of objects are represented by the list type. This data type is basically a sequence of elements, which may or may not be of the same type.
+Python also allows the creation of nested lists (a list inside another). This feature is useful when we want to create multi-dimensional lists (or matrices).
+In Python, we normally loop through lists of elements without having indexes associated with them.
+ 
+
+After your analysis, tick the option in which only the correct statements are presented.
+
+
+The statements I and II are correct.
+
+
+Only the affirmative: i.
+
+
+The statements I and III are correct.
+
+
+The following statements are correct: II and III.
+
+ Right
+The statements I, II and III are correct.
+
+
+
+Explanation:
+It is worth noting that Python allows us to traverse a list through ranges, using the range() function
+
+A tuple is a type of structure in Python that looks like lists, but a tuple is ___
+
+
+restricted to integers and strings
+
+Right
+immutable
+
+
+restricted to integers
+
+restricted to strings
+
+mutable
+
+
+Explanation:
+The answer is immutable. A tuple is like a list, but it cannot be modified, unlike the latter.
+
+Tuples are nothing more than lists, but with some specific characteristics. Analyze the following statements.
+
+Once the tuple is created, we can modify it at any time.
+Tuples are capable of containing any other types defined in Python, such as numbers, strings, other lists, and so on.
+Access to tuple elements is through indices, where the first index in pyhton is zero (0).
+ 
+
+After your analysis, mark the option in which only the correct statements are presented.
+
+
+The statements I and II are correct.
+
+
+The statements I and III are correct.
+
+
+The statements I, II and III are correct.
+
+Right
+The following statements are correct: II and III.
+
+
+Only the affirmative: II.
+
+
+Explanation:
+Statement I is incorrect since tuples are immutable.
+
+Analyze the following Python code:
+
+structure = (3,4,6,4,5,'b','f',5,8,2)
+
+print(structure.count(5))
+
+What is the name of this structure and what will be printed in the console?
+
+
+array, 0
+
+
+list, 4
+
+
+row, 2
+
+
+dictionary, 2
+
+Right
+tuple, 2
+
+Explanation:
+This structure is called a tuple and the count(5) function will count the number of times element 5 appears in the structure, in this case twice, the answer is the tuple, 2.
+
+One of the ways of handling errors in Python is by "exceptions". Which of the commands below characterizes a part of the exception command in Python?
+
+if then else
+
+
+while
+
+
+for i from 1 to 10
+
+right
+try
+
+
+def f(x)
+
+
+
+
+Explanation:
+An exception in Python is handled by the try < > except command, in which case the response is try. The others are decision and repetition structures.
+
+In Python, _________ is a type of data structure where there is a mapping between a key (key) and a value (value).
+
+Choose the option that completes the sentence correctly.
+ 
+
+
+tuple
+
+
+pointer
+
+
+List
+
+right
+Dictionary
+
+
+Row
+
+What is the purpose of the len() method, which can be applied to both tuples and lists?
+
+right
+Check how many elements there are in the list or tuples
+
+
+Repeat elements from lists or pairs
+
+
+Concatenate 2 or more tuples or lists
+
+
+Iterate, with the FOR command, together
+
+
+Check if an element exists or not in the list or tuple ?
+
+In Python, dictionary is a type of data structure in which there is a mapping between a key (key) and a value (value). What is the method used to get the content associated with the key?
+
+
+value()
+
+
+set()
+
+
+items()
+
+
+key()
+
+right
+get()
+
+
+
+
+Explanation:
+Dictionaries - Methods:
+
+value() - Allows you to view the stored values.
+
+set() ¿ there is no such method.
+
+key() - Allows you to identify the keys of a dictionary.
+
+items() - Allows you to return elements in the form of tuples.
+
+Regarding the concepts and use of lists and tuples, evaluate the following statements:
+
+I. Lists and duos have the same properties
+
+II. Tuples are mutable like lists.
+
+III. The elements of lists and tuples are accessed by their relative position in the structure, that is, by the index.
+
+ONLY the statements are correct
+
+
+I, II and III
+
+
+II and III
+
+
+I and II
+
+right
+III
+
+
+I and III
+
+
+
+
+Explanation:
+I. Lists and duos have the same properties - FALSE
+
+II. Tuples are mutable just like lists - FALSE, they are immutable
+
+III. The elements of lists and tuples are accessed by their relative position in the structure, that is, by the index. - Truth
+
+Only III is correct
+
+In Python, there are several possibilities to manipulate texts and strings. Consider the following code
+
+line = 'test,of,something'
+
+print(line.split(','))
+
+What will be the result of this snippet?
+
+
+['test','something']
+
+
+['test', 'thing']
+
+Right
+['test', 'of', 'some', 'thing']
+
+
+test something
+
+
+[test]
+
+
+
+
+Explanation:
+The correct answer is ['test', 'of', 'some', 'thing']. The ¿split¿ function splits the string according to an input parameter, in this case it is the comma.
+
+In Python, we use the OPEN() command to open files. How many and which arguments should be used in the command?
+
+right
+2 arguments, the path and name of the file and the mode of opening the file
+
+
+1 argument, the file opening mode
+
+
+1 argument, which is the path of the file
+
+
+1 argument, the path and filename
+
+
+no argument is needed
+
+During the development of an application there was a need to open a file called words.txt, but only allow the user to read the file. So, which of the commands below should be used in Python to open the file read-only and assign themes to the variable?
+
+right
+themes = open('words.txt', 'e')
+
+
+themes = open('words')
+
+
+themes = open('words.txt', 'w')
+
+
+themes = open('words.txt', 'a')
+
+
+open(themes, 'words.txt', 'e')
+
+
+
+
+Explanation:
+To open a file, Python has the open() function. It takes two parameters: the first is the name of the file to be opened, and the second parameter is the way we want to work with that file: e ¿ read-only, w ¿ write-only, a ¿ data insertion written at the end of the file , r+ - read and write.
+
+Parse the following string:
+
+              subject = 'Programming III'
+
+What command allows you to check if the string contains non-alphabetic characters?
+
+
+discipline.strip()
+
+right
+discipline.isalpha()
+
+
+discipline.alpha()
+
+
+discipline.char()
+
+
+discipline.len()
+
+
+
+
+Explanation:
+char() ¿ does not exist
+
+len() ¿ identifies the length of the string.
+
+alpha() ¿ does not exist
+
+strip() ¿ strips whitespace at the beginning and end of the string.
+
+Given the Python code below, what will the output be?
+
+str1 = "ABCDEF"
+str2 = "GHIJKL"
+
+print(str1[:2].join(str2[3:]))
+
+
+JKLABC
+
+
+ABJKL
+
+
+ABCJKL
+
+
+DGEGHF
+
+Right
+JABKABL
+
+
+
+
+Explanation:
+The join command will cause each letter of the second string (str2[3:] -> "JKL") to be separated by the symbols of the first string (str1[:2] -> "AB")
+
+J AB K AB L
+
+To read only 2 characters from a file type object called file, we use:
+file.readline()
+file.read()
+Right file.read(2)
+arch.readlines
+file.open(2)
+
+
+
+Explanation: file.read(2) is the correct syntax for reading characters
+
+Consider the following commands in Python
+
+>>> str1="Phyton123"
+>>> str1.isalpha()
+ 
+
+What is the result of executing these 2 lines of code?
+
+
+true
+
+
+"Phyton"
+
+
+"123"
+
+
+Null
+
+Right
+false
+
+Check the alternative that creates a tuple called evaluation with the following elements: AV, AVS, SIMULATED.
+
+right
+evaluation('AV', 'AVS', 'SIMULADO')
+
+
+evaluation [AV, AVS, SIMULATED]
+
+
+evaluation(AV, AVS, SIMULATED)
+
+
+evaluation {'AV', 'AVS', 'SIMULADO'}
+
+
+evaluation ['AV', 'AVS', 'SIMULADO']
+
+
+
+
+Explanation:
+To create the tuples we use parentheses. As the data is of type string, it must be enclosed in quotes (' ').
